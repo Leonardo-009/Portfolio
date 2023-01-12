@@ -1,0 +1,10 @@
+.home-logo {
+  border-color: transparent;
+  background: linear-gradient(var(--color-primary), transparent);
+  /* width: 50rem; */
+  /* height: 50rem; */
+  left: calc(50% - 11rem);
+  margin-top: 6rem;
+  /* border-radius: 50vw; */
+  /* overflow: hidden; */
+}
