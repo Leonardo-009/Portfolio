@@ -6,12 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Eu sou um",
-          "Desevolvedor", 
-          "Apaixonado por",
-          // "DevOps",
-          "Segurança Da Informação",
-          "e tecnologia",
+          "Eu sou um desenvolvedor Salesforce com habilidades de front-end e conhecimento de back-end.",
+          "E sou Apaixonado por tecnologia",
         ],
         autoStart: true,
         loop: true,

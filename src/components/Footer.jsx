@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,
+  FaSalesforce } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -31,6 +32,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://trailblazer.me/id/leonardopelanda"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <FaSalesforce />
               </a>
             </li>
           </ul>

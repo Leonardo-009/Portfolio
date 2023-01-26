@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import EmConstrucao from "../../Assets/Projects/2.jpg";
-
+import pok from "../../Assets/Projects/pok.jpeg";
 
 function Projects() {
   return (
@@ -19,12 +19,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={EmConstrucao}
+              imgPath={pok}
               isBlog={false}
               title="Em Construcao"
-              description="No momento estou planejando alguns projetos"
+              description="Um mini-jogo utilizando JS, CSS e HTML. A ideia do jogo é fazer com que você pule a Pokebola. O objetivo do projeto é demonstrar um pouco do meu conhecimento em CSS e JS."
               ghLink="https://github.com/Leonardo-009"
-              demoLink="https://github.com/Leonardo-009"
+              demoLink="https://leonardo-009.github.io/Mini-game-Pokemon/"
             />
           </Col>
 

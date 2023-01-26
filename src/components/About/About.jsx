@@ -2,10 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+// habilidades
+import Backend from "./Backend";
+import Frontend from "./Frontend";
+import Ferramentas from "./Ferramentas";
+import Cloud from "./Cloud";
+
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/programador.gif";
-import Toolstack from "./Toolstack";
+// import Toolstack from "./Toolstack";
 
 function About() {
   return (
@@ -40,11 +45,22 @@ function About() {
         </Row>
         <h1 className="project-heading">Conjunto de habilidades
         </h1>
-        <Techstack />
         <h1 className="project-heading">
-          Ferramentas Que eu uso
+        Front-end
         </h1>
-        <Toolstack />
+        <Frontend />
+        <h1 className="project-heading">
+        Back-end
+        </h1>
+        <Backend />
+        <h1 className="project-heading">
+        Ferramentas
+        </h1>
+        <Ferramentas />
+        <h1 className="project-heading">
+        Cloud
+        </h1>
+        <Cloud />
         <Github />
       </Container>
     </Container>

@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
 import me from "../../Assets/eu.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaSalesforce } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,8 +18,8 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Eu me chamo Leonardo, um desenvolvedor apaixonado por{" "}
-              <b className="priwinkle">tecnologia</b> e{" "}
-              <b className="priwinkle">cibersegurança</b>. Atualmente, estou
+              <b className="priwinkle">tecnologia</b>
+              <b className="priwinkle"></b>. Atualmente, estou
               adquirindo e aprimorando minhas habilidades e conhecimentos na
               área. Busco constantemente desafios para me desenvolver e alcançar
               meu objetivo de me tornar uma referência na indústria da
@@ -39,7 +38,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Venha me conhecer</h1>
             <p>
-              Sinta-se livre para <span className="priwinkle">conectar </span>comigo
+              Sinta-se livre para <span className="priwinkle">fala </span>comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -50,6 +49,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://trailblazer.me/id/leonardopelanda"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaSalesforce />
                 </a>
               </li>
               <li className="social-icons">
