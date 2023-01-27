@@ -7,10 +7,10 @@ import Backend from "./Backend";
 import Frontend from "./Frontend";
 import Ferramentas from "./Ferramentas";
 import Cloud from "./Cloud";
+import Salesforce from "./Salesforce";
 
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/programador.gif";
-// import Toolstack from "./Toolstack";
 
 function About() {
   return (
@@ -53,6 +53,10 @@ function About() {
         Back-end
         </h1>
         <Backend />
+        <h1 className="project-heading">
+        Salesforce
+        </h1>
+        <Salesforce />
         <h1 className="project-heading">
         Ferramentas
         </h1>
