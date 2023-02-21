@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import EmConstrucao from "../../Assets/Projects/2.jpg";
 import pok from "../../Assets/Projects/pok.jpeg";
-
+import crud from "../../Assets/Projects/Crud.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -30,11 +30,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={EmConstrucao}
+              imgPath={crud}
               isBlog={false}
-              title="Em Construcao"
-              description="No momento estou planejando alguns projetos"
-              ghLink="https://github.com/Leonardo-009"
+              title="Crud-de-usuario"
+              description= "O projeto Crud de usuário utiliza JavaScript, React e Node.js para desenvolvimento do front-end e back-end, com MySQL como banco de dados para armazenamento de dados dos usuários. O sistema utiliza Express, Styled Components, Axios e outras bibliotecas para implementação de funcionalidades, e HTML/CSS para construção da interface do usuário."
+              ghLink="https://github.com/Leonardo-009/Crud-de-usuario"
               demoLink="https://github.com/Leonardo-009"
             />
           </Col>

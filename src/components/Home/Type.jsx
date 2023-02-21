@@ -6,7 +6,7 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Eu sou um desenvolvedor Salesforce com habilidades de front-end e conhecimento de back-end.",
+          "Eu sou um desenvolvedor FullStack com habilidades em Front-end, Back-end e Salesforce.",
           "E sou Apaixonado por tecnologia",
         ],
         autoStart: true,
