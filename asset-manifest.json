@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2c8ba431.css",
-    "main.js": "/Portfolio/static/js/main.e7126b68.js",
+    "main.js": "/Portfolio/static/js/main.04620f81.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/5.jpg": "/Portfolio/static/media/5.20ef5bb717899ea431d8.jpg",
     "static/media/2.jpg": "/Portfolio/static/media/2.ab0bd2aa3240e2295dad.jpg",
@@ -10,7 +10,7 @@
     "static/media/Segurança Da Informação.jpg": "/Portfolio/static/media/Segurança Da Informação.473e89c16641ebab5b2b.jpg",
     "static/media/Geek.jpeg": "/Portfolio/static/media/Geek.345f51c3e8a80e353369.jpeg",
     "static/media/CertiProf.jpeg": "/Portfolio/static/media/CertiProf.2e30620580f86b8dc5c2.jpeg",
-    "static/media/salesforce.jpeg": "/Portfolio/static/media/salesforce.7a3ed007bc07178040ea.jpeg",
+    "static/media/salesforce.jpeg": "/Portfolio/static/media/salesforce.fd08e7fb3ecbf587614a.jpeg",
     "static/media/BPC.jpeg": "/Portfolio/static/media/BPC.2376bca628e39730c6eb.jpeg",
     "static/media/FC.jpeg": "/Portfolio/static/media/FC.0bbb3f015142b2f0b76d.jpeg",
     "static/media/eu.jpeg": "/Portfolio/static/media/eu.06e7d78b59b9cb7df409.jpeg",
@@ -18,11 +18,11 @@
     "static/media/pok.jpeg": "/Portfolio/static/media/pok.947b9dc2facf4e5742a8.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.2c8ba431.css.map": "/Portfolio/static/css/main.2c8ba431.css.map",
-    "main.e7126b68.js.map": "/Portfolio/static/js/main.e7126b68.js.map",
+    "main.04620f81.js.map": "/Portfolio/static/js/main.04620f81.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c8ba431.css",
-    "static/js/main.e7126b68.js"
+    "static/js/main.04620f81.js"
   ]
 }
